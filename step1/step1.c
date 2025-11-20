@@ -1,9 +1,11 @@
+#include <stdio.h>
+
 int main ()
 {
-    int a = 0x7;
-    int b = 0x1;
+    int a = 7;
+    int b = 1;
 
-    if (a & b == 0x8) {
+    if (a + b == 8) {
         puts("Normal.");
     } else {
         puts("Hmm wait what ?!");
